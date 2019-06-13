@@ -411,8 +411,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  DrawType: 1
-  EdgeAmount: 6
+  DrawType: 0
+  EdgeAmount: 9
   Positions:
   - {x: 0.5, y: 0.5}
   - {x: 0.5, y: -0.5}
@@ -468,11 +468,16 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Positions:
-  - {x: 100, y: 100, z: 0}
-  - {x: 100, y: -100, z: 0}
-  - {x: -100, y: -100, z: 0}
-  - {x: -100, y: 100, z: 0}
-  - {x: 100, y: 100, z: 0}
+  - {x: -0.000008742278, y: 200, z: 0}
+  - {x: 128.55753, y: 153.2089, z: 0}
+  - {x: 196.96155, y: 34.729637, z: 0}
+  - {x: 173.20508, y: -100, z: 0}
+  - {x: 68.40403, y: -187.93852, z: 0}
+  - {x: -68.40402, y: -187.93852, z: 0}
+  - {x: -173.20508, y: -100.000015, z: 0}
+  - {x: -196.96155, y: 34.729645, z: 0}
+  - {x: -128.55751, y: 153.20891, z: 0}
+  - {x: -0.000008742278, y: 200, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
